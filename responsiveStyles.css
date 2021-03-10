@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* Responsive Travel
+Author: Chauntel Atchley Cully
+Date: 02/16/2021 */
+@media screen and (min-width: 725px) {
+  body {
+    text-align: center;
+  }
+
+  .container {
+    background-color: transparent;
+  }
+
+  .cols {
+    margin: 5% auto 5% auto;
+    line-height: 1.5
+  }
+
+  .img1, .img2 {
+    float: none;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto 10px auto;
+    padding: 0 0 0 0;
+  }
+
+  .img4 {
+    float: left;
+    max-width: 45%;
+    height: auto;
+    margin: auto auto 10px auto;
+    padding: 0 0 0 0;
+  }
+
+  .img5 {
+    float: right;
+    max-width: 45%;
+    height: auto;
+    margin: auto auto 10px auto;
+    padding: 0 0 0 0;
+  }
+
+  .col1, .col2 {
+    display: inline-grid;
+    width: 40%;
+    margin: auto 15px 5% 15px;
+    padding: 0 10px 0 10px;
+    text-align: center;
+  }
+
+  p.col1, p.col2 {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 10px;
+    min-height: 275px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background: url("background1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1900px 100%;
+  }
+
+  .star1 {
+    float: left;
+    display: block;
+    border: none;
+    margin-top: 45px;
+    width: 160px;
+    height: 120px;
+  }
+
+  .star2 {
+    float: right;
+    display: block;
+    border: none;
+    margin-top: 45px;
+    width: 160px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .col1, .col2, .col3, .col4 {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .col5 {
+    margin: 32% auto auto auto;
+  }
+
+  body {
+    background: url("background2.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

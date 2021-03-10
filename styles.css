@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+/* Responsive Travel
+Author: Chauntel Atchley Cully
+Date: 02/16/2021 */
+@media screen and (min-width: 568px) {
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    border-style: ridge;
+    border-color: #FFDD00;
+    border-width: thick;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+
+  header {
+    background-color: #FFDD00;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+    border-style: inset;
+    border-color: #CCB000;
+    border-width: thick;
+  }
+
+  h2 {
+    color: white;
+    text-shadow:
+      -1.5px -1.5px 0 black,
+      1.5px -1.5px 0 black,
+      -1.5px 1.5px 0 black,
+      1.5px 1.5px 0 black;
+    font-size: 1.5em;
+  }
+/* This code covers the entire Header and Footer
+Body for Layout and Style of the Mobile page*/
+  p.h {
+    color: #515151;
+    font-size: 1em;
+    letter-spacing: normal;
+  }
+
+  .star1 {
+    float: left;
+    display: none;
+    border: none;
+  }
+
+  .star2 {
+    float: right;
+    display: none;
+    border: none;
+  }
+
+  div.logo img.logo {
+    height: 180px;
+    width: 350px;
+    vertical-align: middle;
+    display: block;
+    margin: auto auto -50px auto;
+    background-color: #FFDD00;
+    border: none;
+  }
+
+  .f {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgba(193, 193, 193, 0.6);
+    text-align: center;
+    font-size: 0.5em;
+  }
+/* This is to adjust the border around
+all images on the Mobile page */
+  img {
+    border-style: ridge;
+    border-color: #FFDD00;
+    border-width: medium;
+  }
+/* This code is to adjust the Layout
+and Styles of the Mobile page */
+  .container {
+    width: 95%;
+    margin: auto;
+    background-color: black;
+  }
+/* This section of Code .col1 will be
+adjusting the whole first row on the Mobile page */
+  .col1 {
+    background-color: #CCB000;
+    float: none;
+    margin: 5% auto 5% auto;
+    padding: 25px 10px 25px 10px;
+    width: 90%;
+    border-style: inset;
+    border-color: #CCB000;
+    border-width: thick;
+  }
+
+  p.col1 {
+    background-color: #FFDD00;
+    width: 60%;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 5px;
+    border-style: outset;
+    border-color: #FFEE00;
+    border-width: medium;
+  }
+
+  .img1 {
+    float: left;
+    margin: -10px 0px 0px 0px;
+    padding: 0%;
+    max-width: 180px;
+    filter: drop-shadow(-5px 5px 6px black);
+  }
+/* This section of Code .col2 will be
+adjusting the whole second row on the Mobile page */
+  .col2 {
+    background-color: #CCB000;
+    float: none;
+    margin: auto auto 5% auto;
+    padding: 8px 10px 8px 10px;
+    width: 90%;
+    border-style: inset;
+    border-color: #CCB000;
+    border-width: thick;
+  }
+
+  p.col2 {
+    background-color: #FFDD00;
+    width: 60%;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+    border-style: outset;
+    border-color: #FFEE00;
+    border-width: medium;
+  }
+
+  .img2 {
+    float: right;
+    margin: 0px 0px 0px 0px;
+    padding: 0%;
+    max-width: 175px;
+    filter: drop-shadow(5px 5px 6px black);
+  }
+/* This section of Code .col3 will be
+adjusting the whole third row on the Mobile page */
+  .col3 {
+    background-color: #CCB000;
+    float: none;
+    margin: auto auto 5% auto;
+    padding: 10px;
+    width: 90%;
+    border-style: inset;
+    border-color: #CCB000;
+    border-width: thick;
+  }
+
+  p.col3 {
+    background-color: #FFDD00;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border-style: outset;
+    border-color: #FFEE00;
+    border-width: medium;
+  }
+
+  .img3 {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* This section of Code .col4 will be
+adjusting the whole fourth row on the Mobile page */
+  .col4 {
+    background-color: #CCB000;
+    float: none;
+    margin: auto auto 5% auto;
+    padding: 10px 10px 15px 10px;
+    width: 90%;
+    border-style: inset;
+    border-color: #CCB000;
+    border-width: thick;
+  }
+
+  .img4 {
+    float: left;
+    padding: 0%;
+    max-width: 220px;
+    filter: drop-shadow(-5px 5px 6px black);
+  }
+
+  .img5 {
+    float: right;
+    padding: 0%;
+    max-width: 220px;
+    filter: drop-shadow(5px 5px 6px black);
+  }
+/* This section of Code .col5 will be
+adjusting the paragraph within the 4th row on the Mobile page */
+  .col5 {
+    background-color: #CCB000;
+    float: none;
+    margin: 30% auto auto auto;
+    width: 90%;
+  }
+
+  p.col5 {
+    background-color: #FFDD00;
+    width: 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-style: outset;
+    border-color: #FFEE00;
+    border-width: medium;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
